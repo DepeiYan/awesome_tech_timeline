@@ -18,6 +18,26 @@
 
 ---
 
+## 📅 按时间线排序
+
+| 时间 | 项目/论文 | 领域 | 链接 |
+|------|----------|------|------|
+| 2026-03 | MeMix: 长时序 3D 重建方法 | 3D 重建 / SLAM | [博客](blogs/2026-03-memix-3d-reconstruction.md) |
+| 2026-03 | VLA 世界模型综述 | VLA / 世界模型 / 具身智能 | [论文](papers/2026-03-vla-world-models-survey.md) · [GitHub](https://github.com/FutureTwT/awesome-world-models-for-vla-agents) |
+
+---
+
+## 📂 按技术领域分类
+
+快速浏览各领域的项目汇总：
+
+| 领域 | 文件 | 项目数 |
+|------|------|--------|
+| 3D 重建 / SLAM | [3d-reconstruction.md](./3d-reconstruction.md) | 1 |
+| VLA / 世界模型 / 具身智能 | [vla-world-models.md](./vla-world-models.md) | 2 |
+
+---
+
 ## 📄 论文 (Papers)
 
 | 标题 | 来源 | 时间 | 详细笔记 |
