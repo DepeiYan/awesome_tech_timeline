@@ -45,6 +45,7 @@
 
 | 名称 | 时间 | 简介 | 链接 |
 |------|------|------|------|
+| Hi-GRPO | 2026 | 首个系统性研究 RL 用于 3D 生成，提出层次化方法开创新路径 | [公众号](https://mp.weixin.qq.com/s/fJ1FkFhZJ5c0tl3fGLj-Xw) · [笔记](papers/2026-CVPR-hi-grpo.md) |
 | CoSMo3D | 2026-03 | 通过 LLM 引导的规范空间建模，实现开放世界可提示的 3D 语义部件分割 SOTA | [论文](https://arxiv.org/abs/2603.01205) · [笔记](papers/2026-03-cosmo3d.md) |
 
 [查看全部 →](3d-generation.md)
@@ -67,6 +68,7 @@
 
 | 时间 | 项目/论文 | 领域 | 链接 |
 |------|----------|------|------|
+| 2026 | Hi-GRPO: RL 用于 3D 生成 | 3D Generation | [公众号](https://mp.weixin.qq.com/s/fJ1FkFhZJ5c0tl3fGLj-Xw) · [笔记](papers/2026-CVPR-hi-grpo.md) |
 | 2026-03 | Fast-WAM: 世界动作模型推理优化 | World Model | [论文](https://arxiv.org/abs/2603.16666) · [笔记](papers/2026-03-fast-wam.md) |
 | 2026-03 | Uni-Walker: 终身具身导航学习 | Embodied AI | [论文](https://arxiv.org/abs/2603.06073) · [笔记](papers/2026-03-uni-walker-lenl.md) |
 | 2026-03 | VLA 世界模型综述 | VLA/VLN | [论文](https://doi.org/10.36227/techrxiv.176948355.54623875/v1) · [笔记](papers/2026-03-vla-world-models-survey.md) |
@@ -88,6 +90,7 @@
 - [ ] MeMix: 长时序 3D 重建方法
 - [ ] BuildingWorld: 全球 3D 建筑数据集
 - [ ] 3D Gaussian Map for VLN
+- [ ] Hi-GRPO: RL 用于 3D 生成
 
 ---
 
@@ -98,12 +101,12 @@
 | World Model | 1 |
 | VLA/VLN | 3 |
 | Embodied AI | 1 |
-| 3D Generation | 1 |
+| 3D Generation | 2 |
 | 3D Reconstruction | 3 |
-| **总计** | **9** |
+| **总计** | **10** |
 
-- **本月新增:** 9
-- **已读:** 0 | **待读:** 9
+- **本月新增:** 10
+- **已读:** 0 | **待读:** 10
 
 ---
 
@@ -111,6 +114,7 @@
 
 | 日期 | 操作 | 内容 |
 |------|------|------|
+| 2026-03-25 | 新增论文 | Hi-GRPO: 首个系统性研究 RL 用于 3D 生成 (CVPR 2026) |
 | 2026-03-25 | 新增论文 | 3D Gaussian Map for VLN (ICCV 2025) |
 | 2026-03-25 | 优化排序 | 所有时间线改为从近到远排序 |
 | 2026-03-25 | 新增论文 | BuildingWorld: 全球 3D 建筑数据集 |
