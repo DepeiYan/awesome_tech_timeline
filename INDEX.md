@@ -3,7 +3,7 @@
 > 所有技术文档的总索引
 
 **创建时间:** 2026-03-24  
-**最后更新:** 2026-03-24
+**最后更新:** 2026-03-25
 
 ---
 
@@ -54,9 +54,9 @@
 
 | 名称 | 时间 | 简介 | 链接 |
 |------|------|------|------|
-| BuildingWorld | 2025-11 | 500万 LOD2 建筑数据集，覆盖全球多样风格，支持城市基础模型训练 | [论文](https://arxiv.org/abs/2511.06337) · [笔记](papers/2025-11-buildingworld.md) |
-| ReLi3D | 2026-01 | 稀疏视图可重光照 3D 重建，一次性解耦材质与光照，0.3 秒推理 | [主页](https://reli3d.jdihlmann.com/) · [笔记](papers/2026-01-reli3d.md) |
 | MeMix | 2026-03 | 无需训练的长时序 3D 重建方法，解决漂移与退化问题，误差降低 40% | [博客](https://mp.weixin.qq.com/s/pV6D4jpBywQhWbxp8iK50A) · [笔记](3d-reconstruction/2026-03-memix-3d-reconstruction.md) |
+| ReLi3D | 2026-01 | 稀疏视图可重光照 3D 重建，一次性解耦材质与光照，0.3 秒推理 | [主页](https://reli3d.jdihlmann.com/) · [笔记](papers/2026-01-reli3d.md) |
+| BuildingWorld | 2025-11 | 500万 LOD2 建筑数据集，覆盖全球多样风格，支持城市基础模型训练 | [论文](https://arxiv.org/abs/2511.06337) · [笔记](papers/2025-11-buildingworld.md) |
 
 [查看全部 →](3d-reconstruction.md)
 
@@ -66,13 +66,13 @@
 
 | 时间 | 项目/论文 | 领域 | 链接 |
 |------|----------|------|------|
-| 2025-11 | BuildingWorld: 全球 3D 建筑数据集 | 3D Reconstruction | [论文](https://arxiv.org/abs/2511.06337) · [笔记](papers/2025-11-buildingworld.md) |
-| 2026-01 | ReLi3D: 可重光照 3D 重建 | 3D Reconstruction | [主页](https://reli3d.jdihlmann.com/) · [笔记](papers/2026-01-reli3d.md) |
-| 2026-03 | CoSMo3D: 开放世界 3D 语义部件分割 | 3D Generation | [论文](https://arxiv.org/abs/2603.01205) · [笔记](papers/2026-03-cosmo3d.md) |
-| 2026-03 | MeMix: 长时序 3D 重建方法 | 3D Reconstruction | [博客](https://mp.weixin.qq.com/s/pV6D4jpBywQhWbxp8iK50A) · [笔记](3d-reconstruction/2026-03-memix-3d-reconstruction.md) |
-| 2026-03 | VLA 世界模型综述 | VLA/VLN | [论文](https://doi.org/10.36227/techrxiv.176948355.54623875/v1) · [笔记](papers/2026-03-vla-world-models-survey.md) |
-| 2026-03 | Uni-Walker: 终身具身导航学习 | Embodied AI | [论文](https://arxiv.org/abs/2603.06073) · [笔记](papers/2026-03-uni-walker-lenl.md) |
 | 2026-03 | Fast-WAM: 世界动作模型推理优化 | World Model | [论文](https://arxiv.org/abs/2603.16666) · [笔记](papers/2026-03-fast-wam.md) |
+| 2026-03 | Uni-Walker: 终身具身导航学习 | Embodied AI | [论文](https://arxiv.org/abs/2603.06073) · [笔记](papers/2026-03-uni-walker-lenl.md) |
+| 2026-03 | VLA 世界模型综述 | VLA/VLN | [论文](https://doi.org/10.36227/techrxiv.176948355.54623875/v1) · [笔记](papers/2026-03-vla-world-models-survey.md) |
+| 2026-03 | MeMix: 长时序 3D 重建方法 | 3D Reconstruction | [博客](https://mp.weixin.qq.com/s/pV6D4jpBywQhWbxp8iK50A) · [笔记](3d-reconstruction/2026-03-memix-3d-reconstruction.md) |
+| 2026-03 | CoSMo3D: 开放世界 3D 语义部件分割 | 3D Generation | [论文](https://arxiv.org/abs/2603.01205) · [笔记](papers/2026-03-cosmo3d.md) |
+| 2026-01 | ReLi3D: 可重光照 3D 重建 | 3D Reconstruction | [主页](https://reli3d.jdihlmann.com/) · [笔记](papers/2026-01-reli3d.md) |
+| 2025-11 | BuildingWorld: 全球 3D 建筑数据集 | 3D Reconstruction | [论文](https://arxiv.org/abs/2511.06337) · [笔记](papers/2025-11-buildingworld.md) |
 
 ---
 
@@ -108,6 +108,7 @@
 
 | 日期 | 操作 | 内容 |
 |------|------|------|
+| 2026-03-25 | 优化排序 | 所有时间线改为从近到远排序 |
 | 2026-03-25 | 新增论文 | BuildingWorld: 全球 3D 建筑数据集 |
 | 2026-03-25 | 新增论文 | ReLi3D: 可重光照多视图 3D 重建 |
 | 2026-03-24 | 重构分类 | 新增 VLA/VLN、3D Generation 领域，重新整理项目分类 |
