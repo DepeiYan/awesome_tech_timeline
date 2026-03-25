@@ -25,6 +25,7 @@
 |------|------|------|------|
 | Towards Generalist Embodied AI: A Survey on World Models for VLA Agents | 2026-03 | 首篇 VLA 与世界模型交叉领域综述，提出四大范式分类法 | [论文](https://doi.org/10.36227/techrxiv.176948355.54623875/v1) · [笔记](papers/2026-03-vla-world-models-survey.md) |
 | awesome-world-models-for-vla-agents | 2026-03 | VLA 世界模型领域论文汇总，含 CALVIN/LIBERO 排行榜 | [GitHub](https://github.com/FutureTwT/awesome-world-models-for-vla-agents) · [笔记](projects/awesome-world-models-for-vla-agents.md) |
+| 3D Gaussian Map for VLN | 2025 | 结合 3D Gaussian Splatting 与开放集语义分组的视觉语言导航方法 | [论文](https://openaccess.thecvf.com/content/ICCV2025/papers/Gao_3D_Gaussian_Map_with_Open-Set_Semantic_Grouping_for_Vision-Language_Navigation_ICCV_2025_paper.pdf) · [笔记](papers/2025-ICCV-3d-gaussian-map-vln.md) |
 
 [查看全部 →](vla-vln.md)
 
@@ -72,6 +73,7 @@
 | 2026-03 | MeMix: 长时序 3D 重建方法 | 3D Reconstruction | [博客](https://mp.weixin.qq.com/s/pV6D4jpBywQhWbxp8iK50A) · [笔记](3d-reconstruction/2026-03-memix-3d-reconstruction.md) |
 | 2026-03 | CoSMo3D: 开放世界 3D 语义部件分割 | 3D Generation | [论文](https://arxiv.org/abs/2603.01205) · [笔记](papers/2026-03-cosmo3d.md) |
 | 2026-01 | ReLi3D: 可重光照 3D 重建 | 3D Reconstruction | [主页](https://reli3d.jdihlmann.com/) · [笔记](papers/2026-01-reli3d.md) |
+| 2025 | 3D Gaussian Map for VLN | VLA/VLN | [论文](https://openaccess.thecvf.com/content/ICCV2025/papers/Gao_3D_Gaussian_Map_with_Open-Set_Semantic_Grouping_for_Vision-Language_Navigation_ICCV_2025_paper.pdf) · [笔记](papers/2025-ICCV-3d-gaussian-map-vln.md) |
 | 2025-11 | BuildingWorld: 全球 3D 建筑数据集 | 3D Reconstruction | [论文](https://arxiv.org/abs/2511.06337) · [笔记](papers/2025-11-buildingworld.md) |
 
 ---
@@ -85,6 +87,7 @@
 - [ ] CoSMo3D: Open-World Promptable 3D Semantic Part Segmentation
 - [ ] MeMix: 长时序 3D 重建方法
 - [ ] BuildingWorld: 全球 3D 建筑数据集
+- [ ] 3D Gaussian Map for VLN
 
 ---
 
@@ -93,14 +96,14 @@
 | 领域 | 项目数 |
 |------|--------|
 | World Model | 1 |
-| VLA/VLN | 2 |
+| VLA/VLN | 3 |
 | Embodied AI | 1 |
 | 3D Generation | 1 |
 | 3D Reconstruction | 3 |
-| **总计** | **8** |
+| **总计** | **9** |
 
-- **本月新增:** 8
-- **已读:** 0 | **待读:** 8
+- **本月新增:** 9
+- **已读:** 0 | **待读:** 9
 
 ---
 
@@ -108,6 +111,7 @@
 
 | 日期 | 操作 | 内容 |
 |------|------|------|
+| 2026-03-25 | 新增论文 | 3D Gaussian Map for VLN (ICCV 2025) |
 | 2026-03-25 | 优化排序 | 所有时间线改为从近到远排序 |
 | 2026-03-25 | 新增论文 | BuildingWorld: 全球 3D 建筑数据集 |
 | 2026-03-25 | 新增论文 | ReLi3D: 可重光照多视图 3D 重建 |
