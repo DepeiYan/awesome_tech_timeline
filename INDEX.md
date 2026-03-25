@@ -9,13 +9,35 @@
 
 ## 📂 按技术领域分类
 
-快速浏览各领域的技术项目：
+### World Model (世界模型)
 
-| 领域 | 文件 | 项目数 | 描述 |
-|------|------|--------|------|
-| World Model (世界模型) | [world-model.md](./world-model.md) | 2 | VLA、世界模型、机器人 |
-| Embodied AI (具身智能) | [embodied-ai.md](./embodied-ai.md) | 1 | 具身导航、VLN、终身学习 |
-| 3D Reconstruction (3D重建) | [3d-reconstruction.md](./3d-reconstruction.md) | 1 | SLAM、NeRF、长时序重建 |
+| 名称 | 时间 | 简介 | 链接 |
+|------|------|------|------|
+| Towards Generalist Embodied AI: A Survey on World Models for VLA Agents | 2026-03 | 首篇 VLA 与世界模型交叉领域综述，提出四大范式分类法 | [论文](https://doi.org/10.36227/techrxiv.176948355.54623875/v1) · [笔记](papers/2026-03-vla-world-models-survey.md) |
+| awesome-world-models-for-vla-agents | 2026-03 | VLA 世界模型领域论文汇总，含 CALVIN/LIBERO 排行榜 | [GitHub](https://github.com/FutureTwT/awesome-world-models-for-vla-agents) · [笔记](projects/awesome-world-models-for-vla-agents.md) |
+| Fast-WAM | 2026-03 | 质疑 WAM 推理时未来想象的必要性，跳过预测实现 4 倍加速且性能相当 | [论文](https://arxiv.org/abs/2603.16666) · [笔记](papers/2026-03-fast-wam.md) |
+
+[查看全部 →](world-model.md)
+
+---
+
+### Embodied AI (具身智能)
+
+| 名称 | 时间 | 简介 | 链接 |
+|------|------|------|------|
+| Uni-Walker (Lifelong Embodied Navigation Learning) | 2026-03 | 首次定义终身具身导航学习(LENL)，提出 DE-LoRA 架构解决灾难性遗忘，遗忘率降低 70% | [论文](https://arxiv.org/abs/2603.06073) · [笔记](papers/2026-03-uni-walker-lenl.md) |
+
+[查看全部 →](embodied-ai.md)
+
+---
+
+### 3D Reconstruction (3D重建)
+
+| 名称 | 时间 | 简介 | 链接 |
+|------|------|------|------|
+| MeMix | 2026-03 | 无需训练的长时序 3D 重建方法，解决漂移与退化问题，误差降低 40% | [博客](https://mp.weixin.qq.com/s/pV6D4jpBywQhWbxp8iK50A) · [笔记](3d-reconstruction/2026-03-memix-3d-reconstruction.md) |
+
+[查看全部 →](3d-reconstruction.md)
 
 ---
 
@@ -26,31 +48,7 @@
 | 2026-03 | MeMix: 长时序 3D 重建方法 | 3D Reconstruction | [博客](https://mp.weixin.qq.com/s/pV6D4jpBywQhWbxp8iK50A) · [笔记](3d-reconstruction/2026-03-memix-3d-reconstruction.md) |
 | 2026-03 | VLA 世界模型综述 | World Model | [论文](https://doi.org/10.36227/techrxiv.176948355.54623875/v1) · [笔记](papers/2026-03-vla-world-models-survey.md) |
 | 2026-03 | Uni-Walker: 终身具身导航学习 | Embodied AI | [论文](https://arxiv.org/abs/2603.06073) · [笔记](papers/2026-03-uni-walker-lenl.md) |
-
----
-
-## 📄 论文 (Papers)
-
-| 标题 | 来源 | 时间 | 领域 | 详细笔记 |
-|------|------|------|------|----------|
-| Towards Generalist Embodied AI: A Survey on World Models for VLA Agents | TechRxiv | 2026-03 | World Model | [笔记](papers/2026-03-vla-world-models-survey.md) |
-| Uni-Walker: Lifelong Embodied Navigation Learning | arXiv (ICLR 2026) | 2026-03 | Embodied AI | [笔记](papers/2026-03-uni-walker-lenl.md) |
-
----
-
-## 🛠️ 工具/资源 (Tools & Resources)
-
-| 名称 | 类型 | 时间 | 领域 | 详细笔记 |
-|------|------|------|------|----------|
-| awesome-world-models-for-vla-agents | Awesome List | 2026-03 | World Model | [笔记](projects/awesome-world-models-for-vla-agents.md) |
-
----
-
-## 📝 技术博客 (Tech Blogs)
-
-| 标题 | 来源 | 时间 | 领域 | 详细笔记 |
-|------|------|------|------|----------|
-| MeMix: 长时序 3D 重建方法 | 3D 视觉工坊 (微信) | 2026-03 | 3D Reconstruction | [笔记](3d-reconstruction/2026-03-memix-3d-reconstruction.md) |
+| 2026-03 | Fast-WAM: 世界动作模型推理优化 | World Model | [论文](https://arxiv.org/abs/2603.16666) · [笔记](papers/2026-03-fast-wam.md) |
 
 ---
 
@@ -59,14 +57,21 @@
 - [ ] Towards Generalist Embodied AI: A Survey on World Models for VLA Agents
 - [ ] Uni-Walker: Lifelong Embodied Navigation Learning
 - [ ] MeMix: 长时序 3D 重建方法
+- [ ] Fast-WAM: Do World Action Models Need Test-time Future Imagination?
 
 ---
 
 ## 📊 统计
 
-- **总记录数:** 4
-- **本月新增:** 4
-- **已读:** 0 | **待读:** 3
+| 领域 | 项目数 |
+|------|--------|
+| World Model | 3 |
+| Embodied AI | 1 |
+| 3D Reconstruction | 1 |
+| **总计** | **5** |
+
+- **本月新增:** 5
+- **已读:** 0 | **待读:** 4
 
 ---
 
@@ -74,6 +79,6 @@
 
 | 日期 | 操作 | 内容 |
 |------|------|------|
+| 2026-03-24 | 新增论文 | Fast-WAM: 世界动作模型推理优化 |
 | 2026-03-24 | 重构分类 | 按技术领域重新组织项目结构 |
 | 2026-03-24 | 新增论文 | Uni-Walker: Lifelong Embodied Navigation Learning |
-| 2026-03-24 | 初始创建 | 迁移桌面文档，建立 git 仓库 |

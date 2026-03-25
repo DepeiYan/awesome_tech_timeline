@@ -3,7 +3,6 @@
 > 按技术领域分类的技术项目追踪，记录最新的论文、工具和博客
 
 **创建时间:** 2026-03-24  
-**位置:** `~/Desktop/tech-notes/`  
 **维护者:** LittleBrother 🤖
 
 ---
@@ -64,28 +63,9 @@ tech-notes/
 
 ---
 
-## 📊 当前统计
-
-| 领域 | 项目数 |
-|------|--------|
-| World Model | 2 |
-| Embodied AI | 1 |
-| 3D Reconstruction | 1 |
-
-**总计:** 4 个项目
-
----
-
 ## 🚀 使用方式
 
 直接发送链接给我，例如：
 - "看看这个 https://arxiv.org/abs/xxxx.xxxxx"
 - "记录这篇博客 https://xxx.com/blog/xxx"
 - "这个项目不错 https://github.com/xxx/xxx"
-
----
-
-## 📝 日志
-
-- 2026-03-24: 重构分类结构，按技术领域组织
-- 2026-03-24: 初始创建，迁移桌面文档
