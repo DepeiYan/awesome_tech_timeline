@@ -20,6 +20,37 @@ description: 论文/技术项目追踪与管理技能。帮助用户追踪和整
 
 ## 工作流程
 
+### 0. 自动去重检查（新增）
+
+在处理任何链接之前，**必须**先检查是否已存在记录：
+
+1. **获取论文关键信息**：
+   - 如果是 arXiv：提取 arXiv ID（如 `2511.06337`）
+   - 如果是 GitHub：提取 `owner/repo`（如 `FutureTwT/awesome-world-models-for-vla-agents`）
+   - 如果是其他 URL：提取页面标题
+
+2. **搜索已有记录**：
+   - 在 `papers/` 目录中搜索是否已有相同 arXiv ID 或相同标题的笔记
+   - 在 `projects/` 目录中搜索是否已有相同的 GitHub 仓库
+   - 在 `INDEX.md` 中搜索标题关键词
+
+3. **去重结果处理**：
+   - **如果已存在**：直接返回以下信息，不再重复创建：
+     ```
+     ⚠️ 该论文/项目已存在！
+     
+     名称: [项目名]
+     领域: [领域]
+     时间: [时间]
+     笔记位置: [相对路径]
+     简介: [一句话简介]
+     
+     如需查看笔记，请访问: [链接]
+     ```
+   - **如果不存在**：继续执行后续步骤（步骤 1-6）
+
+> ⚠️ **强制要求**：去重检查是工作流程的第一步，任何链接都必须先经过去重检查才能继续处理。
+
 ### 1. 访问并分析链接内容
 
 使用 `web_fetch` 工具访问链接，提取关键信息：
@@ -125,16 +156,40 @@ awesome_tech_timeline/
 
 ## 使用示例
 
+### 示例 1：新论文追踪
+
 ```
-用户: 追踪这篇论文 https://arxiv.org/abs/2401.12345
+用户: https://arxiv.org/abs/2401.12345
 
 助手: 
-1. 访问链接提取信息
-2. 判断领域（如：world-model）
-3. 创建 papers/2024-01-paper-title.md
-4. 更新 world-model.md
-5. 更新 INDEX.md
-6. git commit & push
+1. 检查去重 → 不存在
+2. 访问链接提取信息
+3. 判断领域（如：world-model）
+4. 创建 papers/2024-01-paper-title.md
+5. 更新 world-model.md
+6. 更新 INDEX.md
+7. git commit & push
+
+✅ 已追踪 [论文名称]
+```
+
+### 示例 2：重复论文检测
+
+```
+用户: https://arxiv.org/abs/2511.06337
+
+助手:
+1. 检查去重 → 已存在！
+
+⚠️ 该论文已存在！
+
+名称: BuildingWorld
+领域: 3D Reconstruction
+时间: 2025-11
+笔记位置: papers/2025-11-buildingworld.md
+简介: 500 万 LOD2 建筑数据集，覆盖全球多样风格，支持城市基础模型训练
+
+如需查看笔记，请访问: papers/2025-11-buildingworld.md
 ```
 
 ## 简介撰写要求
