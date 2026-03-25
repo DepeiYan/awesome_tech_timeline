@@ -13,11 +13,20 @@
 
 | 名称 | 时间 | 简介 | 链接 |
 |------|------|------|------|
-| Towards Generalist Embodied AI: A Survey on World Models for VLA Agents | 2026-03 | 首篇 VLA 与世界模型交叉领域综述，提出四大范式分类法 | [论文](https://doi.org/10.36227/techrxiv.176948355.54623875/v1) · [笔记](papers/2026-03-vla-world-models-survey.md) |
-| awesome-world-models-for-vla-agents | 2026-03 | VLA 世界模型领域论文汇总，含 CALVIN/LIBERO 排行榜 | [GitHub](https://github.com/FutureTwT/awesome-world-models-for-vla-agents) · [笔记](projects/awesome-world-models-for-vla-agents.md) |
 | Fast-WAM | 2026-03 | 质疑 WAM 推理时未来想象的必要性，跳过预测实现 4 倍加速且性能相当 | [论文](https://arxiv.org/abs/2603.16666) · [笔记](papers/2026-03-fast-wam.md) |
 
 [查看全部 →](world-model.md)
+
+---
+
+### VLA/VLN (视觉语言动作/导航)
+
+| 名称 | 时间 | 简介 | 链接 |
+|------|------|------|------|
+| Towards Generalist Embodied AI: A Survey on World Models for VLA Agents | 2026-03 | 首篇 VLA 与世界模型交叉领域综述，提出四大范式分类法 | [论文](https://doi.org/10.36227/techrxiv.176948355.54623875/v1) · [笔记](papers/2026-03-vla-world-models-survey.md) |
+| awesome-world-models-for-vla-agents | 2026-03 | VLA 世界模型领域论文汇总，含 CALVIN/LIBERO 排行榜 | [GitHub](https://github.com/FutureTwT/awesome-world-models-for-vla-agents) · [笔记](projects/awesome-world-models-for-vla-agents.md) |
+
+[查看全部 →](vla-vln.md)
 
 ---
 
@@ -28,6 +37,16 @@
 | Uni-Walker (Lifelong Embodied Navigation Learning) | 2026-03 | 首次定义终身具身导航学习(LENL)，提出 DE-LoRA 架构解决灾难性遗忘，遗忘率降低 70% | [论文](https://arxiv.org/abs/2603.06073) · [笔记](papers/2026-03-uni-walker-lenl.md) |
 
 [查看全部 →](embodied-ai.md)
+
+---
+
+### 3D Generation (3D生成)
+
+| 名称 | 时间 | 简介 | 链接 |
+|------|------|------|------|
+| CoSMo3D | 2026-03 | 通过 LLM 引导的规范空间建模，实现开放世界可提示的 3D 语义部件分割 SOTA | [论文](https://arxiv.org/abs/2603.01205) · [笔记](papers/2026-03-cosmo3d.md) |
+
+[查看全部 →](3d-generation.md)
 
 ---
 
@@ -45,8 +64,9 @@
 
 | 时间 | 项目/论文 | 领域 | 链接 |
 |------|----------|------|------|
+| 2026-03 | CoSMo3D: 开放世界 3D 语义部件分割 | 3D Generation | [论文](https://arxiv.org/abs/2603.01205) · [笔记](papers/2026-03-cosmo3d.md) |
 | 2026-03 | MeMix: 长时序 3D 重建方法 | 3D Reconstruction | [博客](https://mp.weixin.qq.com/s/pV6D4jpBywQhWbxp8iK50A) · [笔记](3d-reconstruction/2026-03-memix-3d-reconstruction.md) |
-| 2026-03 | VLA 世界模型综述 | World Model | [论文](https://doi.org/10.36227/techrxiv.176948355.54623875/v1) · [笔记](papers/2026-03-vla-world-models-survey.md) |
+| 2026-03 | VLA 世界模型综述 | VLA/VLN | [论文](https://doi.org/10.36227/techrxiv.176948355.54623875/v1) · [笔记](papers/2026-03-vla-world-models-survey.md) |
 | 2026-03 | Uni-Walker: 终身具身导航学习 | Embodied AI | [论文](https://arxiv.org/abs/2603.06073) · [笔记](papers/2026-03-uni-walker-lenl.md) |
 | 2026-03 | Fast-WAM: 世界动作模型推理优化 | World Model | [论文](https://arxiv.org/abs/2603.16666) · [笔记](papers/2026-03-fast-wam.md) |
 
@@ -54,10 +74,12 @@
 
 ## 📅 待读列表 (To Read)
 
-- [ ] Towards Generalist Embodied AI: A Survey on World Models for VLA Agents
-- [ ] Uni-Walker: Lifelong Embodied Navigation Learning
-- [ ] MeMix: 长时序 3D 重建方法
 - [ ] Fast-WAM: Do World Action Models Need Test-time Future Imagination?
+- [ ] Towards Generalist Embodied AI: A Survey on World Models for VLA Agents
+- [ ] awesome-world-models-for-vla-agents
+- [ ] Uni-Walker: Lifelong Embodied Navigation Learning
+- [ ] CoSMo3D: Open-World Promptable 3D Semantic Part Segmentation
+- [ ] MeMix: 长时序 3D 重建方法
 
 ---
 
@@ -65,13 +87,15 @@
 
 | 领域 | 项目数 |
 |------|--------|
-| World Model | 3 |
+| World Model | 1 |
+| VLA/VLN | 2 |
 | Embodied AI | 1 |
+| 3D Generation | 1 |
 | 3D Reconstruction | 1 |
-| **总计** | **5** |
+| **总计** | **6** |
 
-- **本月新增:** 5
-- **已读:** 0 | **待读:** 4
+- **本月新增:** 6
+- **已读:** 0 | **待读:** 6
 
 ---
 
@@ -79,6 +103,8 @@
 
 | 日期 | 操作 | 内容 |
 |------|------|------|
+| 2026-03-24 | 重构分类 | 新增 VLA/VLN、3D Generation 领域，重新整理项目分类 |
+| 2026-03-24 | 新增论文 | CoSMo3D: 开放世界 3D 语义部件分割 |
 | 2026-03-24 | 新增论文 | Fast-WAM: 世界动作模型推理优化 |
-| 2026-03-24 | 重构分类 | 按技术领域重新组织项目结构 |
 | 2026-03-24 | 新增论文 | Uni-Walker: Lifelong Embodied Navigation Learning |
+| 2026-03-24 | 初始创建 | 迁移桌面文档，建立 git 仓库 |
