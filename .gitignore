@@ -1,6 +1,7 @@
+# .gitignore
+
 # macOS
 .DS_Store
-._*
 
 # Editor
 .vscode/
@@ -8,9 +9,9 @@
 *.swp
 *.swo
 
-# Temporary files
-*.tmp
-*.bak
+# Logs
+*.log
 
-# PDF downloads (if any)
-*.pdf
+# Temporary files
+tmp/
+temp/
