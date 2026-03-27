@@ -62,6 +62,25 @@ description: 论文/技术项目追踪与管理技能。帮助用户追踪和整
 - **代码仓库**: GitHub 等（如有）
 - **核心贡献**: 一句话概括解决了什么问题、用什么方法、效果如何
 
+#### 特殊来源处理
+
+**微信公众号文章**：
+微信文章通常是对论文的二次报道，正文可能包含原始论文链接但 web_fetch 可能无法完整提取。处理策略：
+
+1. 从文章标题提取关键词（如 "TerraScope"、"CVPR 2026"）
+2. 通过 arXiv API 搜索匹配论文：
+   ```bash
+   curl -s "https://export.arxiv.org/api/query?search_query=all:关键词&max_results=5"
+   ```
+3. 通过 GitHub API 搜索相关代码仓库：
+   ```bash
+   curl -s "https://api.github.com/search/repositories?q=关键词+论文主题词&per_page=5"
+   ```
+4. 将找到的 arXiv ID、PDF 链接、GitHub 仓库补充到笔记中
+
+**arXiv 直链**：
+直接使用 arXiv API 获取结构化元数据（标题、作者、摘要、分类、提交时间）。
+
 ### 2. 判断技术领域
 
 根据内容判断所属技术领域，常见分类：
@@ -76,6 +95,7 @@ description: 论文/技术项目追踪与管理技能。帮助用户追踪和整
 | `diffusion` | 扩散模型 | Diffusion, Image Generation, Video Generation |
 | `llm` | 大语言模型 | LLM, GPT, Language Model, Transformer |
 | `vision` | 计算机视觉 | Object Detection, Segmentation, CV |
+| `geospatial` | 地理空间/遥感 | Geospatial, Earth Observation, Remote Sensing, Satellite, SAR, VLM |
 | `rl` | 强化学习 | Reinforcement Learning, RL, Policy |
 
 ### 3. 创建详细笔记文件
