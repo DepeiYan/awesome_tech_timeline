@@ -9,7 +9,7 @@
 
 | 名称 | 机构/来源 | 时间 | 简介 | 链接 |
 |------|----------|------|------|------|
-| TerraScope | 特伦托大学等 | 2026 | 首个像素级地理空间推理 VLM，遥感图像理解性能远超 GPT-4o | [公众号](https://mp.weixin.qq.com/s/7x_1qHaiFg_AdEF14sKHhw) · [笔记](papers/2026-CVPR-terrascope.md) |
+| TerraScope | 特伦托大学等 | 2026-03 | 首个像素级地理空间推理 VLM，支持多模态灵活推理与多时序变化分析，性能远超 GPT-4o | [arXiv](https://arxiv.org/abs/2603.19039) · [笔记](papers/2026-CVPR-terrascope.md) |
 
 ---
 

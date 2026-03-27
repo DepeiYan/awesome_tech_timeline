@@ -13,7 +13,7 @@
 
 | 名称 | 时间 | 简介 | 链接 |
 |------|------|------|------|
-| TerraScope | 2026 | 首个像素级地理空间推理 VLM，遥感图像理解性能远超 GPT-4o | [公众号](https://mp.weixin.qq.com/s/7x_1qHaiFg_AdEF14sKHhw) · [笔记](papers/2026-CVPR-terrascope.md) |
+| TerraScope | 2026-03 | 首个像素级地理空间推理 VLM，支持多模态灵活推理与多时序变化分析，性能远超 GPT-4o | [arXiv](https://arxiv.org/abs/2603.19039) · [笔记](papers/2026-CVPR-terrascope.md) |
 
 [查看全部 →](vision-geospatial.md)
 
@@ -78,7 +78,7 @@
 
 | 时间 | 项目/论文 | 领域 | 链接 |
 |------|----------|------|------|
-| 2026 | TerraScope: 像素级地理空间推理 VLM | Vision / Geospatial | [公众号](https://mp.weixin.qq.com/s/7x_1qHaiFg_AdEF14sKHhw) · [笔记](papers/2026-CVPR-terrascope.md) |
+| 2026-03 | TerraScope: 像素级地理空间推理 VLM | Vision / Geospatial | [arXiv](https://arxiv.org/abs/2603.19039) · [笔记](papers/2026-CVPR-terrascope.md) |
 | 2026 | Hi-GRPO: RL 用于 3D 生成 | 3D Generation | [公众号](https://mp.weixin.qq.com/s/fJ1FkFhZJ5c0tl3fGLj-Xw) · [笔记](papers/2026-CVPR-hi-grpo.md) |
 | 2026-03 | Fast-WAM: 世界动作模型推理优化 | World Model | [论文](https://arxiv.org/abs/2603.16666) · [笔记](papers/2026-03-fast-wam.md) |
 | 2026-03 | Uni-Walker: 终身具身导航学习 | Embodied AI | [论文](https://arxiv.org/abs/2603.06073) · [笔记](papers/2026-03-uni-walker-lenl.md) |
