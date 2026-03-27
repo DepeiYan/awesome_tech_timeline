@@ -9,6 +9,16 @@
 
 ## 📂 按技术领域分类
 
+### Vision / Geospatial (视觉与地理空间)
+
+| 名称 | 时间 | 简介 | 链接 |
+|------|------|------|------|
+| TerraScope | 2026 | 首个像素级地理空间推理 VLM，遥感图像理解性能远超 GPT-4o | [公众号](https://mp.weixin.qq.com/s/7x_1qHaiFg_AdEF14sKHhw) · [笔记](papers/2026-CVPR-terrascope.md) |
+
+[查看全部 →](vision-geospatial.md)
+
+---
+
 ### World Model (世界模型)
 
 | 名称 | 时间 | 简介 | 链接 |
@@ -68,6 +78,7 @@
 
 | 时间 | 项目/论文 | 领域 | 链接 |
 |------|----------|------|------|
+| 2026 | TerraScope: 像素级地理空间推理 VLM | Vision / Geospatial | [公众号](https://mp.weixin.qq.com/s/7x_1qHaiFg_AdEF14sKHhw) · [笔记](papers/2026-CVPR-terrascope.md) |
 | 2026 | Hi-GRPO: RL 用于 3D 生成 | 3D Generation | [公众号](https://mp.weixin.qq.com/s/fJ1FkFhZJ5c0tl3fGLj-Xw) · [笔记](papers/2026-CVPR-hi-grpo.md) |
 | 2026-03 | Fast-WAM: 世界动作模型推理优化 | World Model | [论文](https://arxiv.org/abs/2603.16666) · [笔记](papers/2026-03-fast-wam.md) |
 | 2026-03 | Uni-Walker: 终身具身导航学习 | Embodied AI | [论文](https://arxiv.org/abs/2603.06073) · [笔记](papers/2026-03-uni-walker-lenl.md) |
@@ -82,6 +93,7 @@
 
 ## 📅 待读列表 (To Read)
 
+- [ ] TerraScope: 像素级地理空间推理 VLM
 - [ ] Fast-WAM: Do World Action Models Need Test-time Future Imagination?
 - [ ] Towards Generalist Embodied AI: A Survey on World Models for VLA Agents
 - [ ] awesome-world-models-for-vla-agents
@@ -98,15 +110,16 @@
 
 | 领域 | 项目数 |
 |------|--------|
+| Vision / Geospatial | 1 |
 | World Model | 1 |
 | VLA/VLN | 3 |
 | Embodied AI | 1 |
 | 3D Generation | 2 |
 | 3D Reconstruction | 3 |
-| **总计** | **10** |
+| **总计** | **11** |
 
-- **本月新增:** 10
-- **已读:** 0 | **待读:** 10
+- **本月新增:** 11
+- **已读:** 0 | **待读:** 11
 
 ---
 
@@ -114,6 +127,7 @@
 
 | 日期 | 操作 | 内容 |
 |------|------|------|
+| 2026-03-27 | 新增论文 | TerraScope: 像素级地理空间推理 VLM (CVPR 2026) |
 | 2026-03-25 | 新增论文 | Hi-GRPO: 首个系统性研究 RL 用于 3D 生成 (CVPR 2026) |
 | 2026-03-25 | 新增论文 | 3D Gaussian Map for VLN (ICCV 2025) |
 | 2026-03-25 | 优化排序 | 所有时间线改为从近到远排序 |
