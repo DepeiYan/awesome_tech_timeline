@@ -33,6 +33,7 @@
 
 | 名称 | 时间 | 简介 | 链接 |
 |------|------|------|------|
+| ProFocus: Proactive Perception and Focused Reasoning in VLN | 2026-03 | 无需训练的渐进式VLN框架，统一主动感知与聚焦推理，零样本SOTA | [论文](https://arxiv.org/abs/2603.05530) · [笔记](papers/2026-03-profocus-vln.md) |
 | Towards Generalist Embodied AI: A Survey on World Models for VLA Agents | 2026-03 | 首篇 VLA 与世界模型交叉领域综述，提出四大范式分类法 | [论文](https://doi.org/10.36227/techrxiv.176948355.54623875/v1) · [笔记](papers/2026-03-vla-world-models-survey.md) |
 | awesome-world-models-for-vla-agents | 2026-03 | VLA 世界模型领域论文汇总，含 CALVIN/LIBERO 排行榜 | [GitHub](https://github.com/FutureTwT/awesome-world-models-for-vla-agents) · [笔记](projects/awesome-world-models-for-vla-agents.md) |
 | 3D Gaussian Map for VLN | 2025 | 结合 3D Gaussian Splatting 与开放集语义分组的视觉语言导航方法 | [论文](https://openaccess.thecvf.com/content/ICCV2025/papers/Gao_3D_Gaussian_Map_with_Open-Set_Semantic_Grouping_for_Vision-Language_Navigation_ICCV_2025_paper.pdf) · [笔记](papers/2025-ICCV-3d-gaussian-map-vln.md) |
@@ -78,6 +79,7 @@
 
 | 时间 | 项目/论文 | 领域 | 链接 |
 |------|----------|------|------|
+| 2026-03 | ProFocus: 主动感知与聚焦推理的 VLN 框架 | VLA/VLN | [论文](https://arxiv.org/abs/2603.05530) · [笔记](papers/2026-03-profocus-vln.md) |
 | 2026-03 | TerraScope: 像素级地理空间推理 VLM | Vision / Geospatial | [arXiv](https://arxiv.org/abs/2603.19039) · [笔记](papers/2026-CVPR-terrascope.md) |
 | 2026 | Hi-GRPO: RL 用于 3D 生成 | 3D Generation | [公众号](https://mp.weixin.qq.com/s/fJ1FkFhZJ5c0tl3fGLj-Xw) · [笔记](papers/2026-CVPR-hi-grpo.md) |
 | 2026-03 | Fast-WAM: 世界动作模型推理优化 | World Model | [论文](https://arxiv.org/abs/2603.16666) · [笔记](papers/2026-03-fast-wam.md) |
@@ -93,6 +95,7 @@
 
 ## 📅 待读列表 (To Read)
 
+- [ ] ProFocus: 主动感知与聚焦推理的 VLN 框架
 - [ ] TerraScope: 像素级地理空间推理 VLM
 - [ ] Fast-WAM: Do World Action Models Need Test-time Future Imagination?
 - [ ] Towards Generalist Embodied AI: A Survey on World Models for VLA Agents
@@ -112,13 +115,13 @@
 |------|--------|
 | Vision / Geospatial | 1 |
 | World Model | 1 |
-| VLA/VLN | 3 |
+| VLA/VLN | 4 |
 | Embodied AI | 1 |
 | 3D Generation | 2 |
 | 3D Reconstruction | 3 |
-| **总计** | **11** |
+| **总计** | **12** |
 
-- **本月新增:** 11
+- **本月新增:** 12
 - **已读:** 0 | **待读:** 11
 
 ---
@@ -127,6 +130,7 @@
 
 | 日期 | 操作 | 内容 |
 |------|------|------|
+| 2026-03-30 | 新增论文 | ProFocus: 主动感知与聚焦推理的 VLN 框架 (CVPR 2026) |
 | 2026-03-27 | 新增论文 | TerraScope: 像素级地理空间推理 VLM (CVPR 2026) |
 | 2026-03-25 | 新增论文 | Hi-GRPO: 首个系统性研究 RL 用于 3D 生成 (CVPR 2026) |
 | 2026-03-25 | 新增论文 | 3D Gaussian Map for VLN (ICCV 2025) |
